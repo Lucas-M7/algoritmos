@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\algoritmos_pratica.csproj": {}
+    "c:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\algoritmos_pratica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\algoritmos_pratica.csproj": {
+    "c:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\algoritmos_pratica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\algoritmos_pratica.csproj",
+        "projectUniqueName": "c:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\algoritmos_pratica.csproj",
         "projectName": "algoritmos_pratica",
-        "projectPath": "C:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\algoritmos_pratica.csproj",
+        "projectPath": "c:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\algoritmos_pratica.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\obj\\",
+        "outputPath": "c:\\Users\\Lucas\\Downloads\\praticas_Csharp\\algoritmos_pratica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

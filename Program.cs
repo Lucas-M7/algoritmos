@@ -1,31 +1,75 @@
-﻿static int PesquisaBinaria(int[] lista, int item)
+﻿static void Fatorial(int numero)
 {
-    int baixo = 0;
-    // Baixo e alto acompanham a parte da lista que está sendo procurada
-    int alto = lista.Length - 1;
+    long resultado = 1;
 
-    while (baixo <= alto) // Enquanto não consegue chegar ao elemento
+    for (int j = 2; j <= numero; j++)
     {
-        int meio = (baixo + alto) / 2; // Verifica o elemento central
-        int chute = lista[meio];
-
-        if (chute == item) // Achar o item
-        {
-            return meio;
-        }
-        else if(chute > item) // Chute foi muito alto
-        {
-            alto = meio - 1;
-        }
-        else // Chute foi muito baixo
-        {
-            baixo = meio + 1;
-        }
+        Console.WriteLine($"Saída: {resultado *= j}");
     }
-
-    return 0; // O item não existe
 }
 
-int[] minhaLista = [1, 3, 6, 7, 10, 23, 54, 67, 88, 104, 126]; // Hora de testar
+Fatorial(5);
 
-Console.WriteLine(PesquisaBinaria(minhaLista, 54)); // Retorna o índice do elemento escolhido
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// static void meuNumero(int numero)
+// {
+//     for (int i = 1; i <= numero; i++)
+//     {
+//         Console.WriteLine($"-> {i}");
+//     }
+
+//     Console.WriteLine($"Seu número é o {numero}");
+// }
+
+// meuNumero(10000);
+
+
+
+// static void meuNumero(int numero)
+// {
+//     string linha = "";
+
+//     for (int i = 1; i <= numero; i++)
+//     {
+//         linha = linha + " " + numero;
+//     }
+//     for (int i = 1; i <= numero; i++)
+//     {
+//         Console.WriteLine($"{linha}");
+//     }
+
+//     Console.WriteLine($"Seu número é - {numero}");
+// }
+
+// meuNumero(7);
