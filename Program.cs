@@ -26,6 +26,6 @@
     return 0; // O item não existe
 }
 
-int[] minhaLista = [1, 3, 6, 7, 10, 23, 54, 67]; // Hora de testar
+int[] minhaLista = [1, 3, 6, 7, 10, 23, 54, 67, 88, 104, 126]; // Hora de testar
 
-Console.WriteLine(PesquisaBinaria(minhaLista, 23)); // Retorna o índice do elemento escolhido
+Console.WriteLine(PesquisaBinaria(minhaLista, 54)); // Retorna o índice do elemento escolhido
