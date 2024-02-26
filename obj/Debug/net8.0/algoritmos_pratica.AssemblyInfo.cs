@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("algoritmos_pratica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc9f91f5364e02a9417ed7029ec0de79acf85515")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4ba4d211a77562f42846d5ffff8c7df6ef95ff6")]
 [assembly: System.Reflection.AssemblyProductAttribute("algoritmos_pratica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("algoritmos_pratica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
